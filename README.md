@@ -1,6 +1,7 @@
 
-Installing and Configuring PySpark with Docker
-## Introduction,
+# Installing and Configuring PySpark with Docker
+
+## Introduction
 
 In addition to running on the clusters, Spark provides a simple standalone deploy mode. We can launch a standalone cluster either manually, by starting a master and workers by hand, or use our provided launch scripts. It is also possible to run these daemons on a single machine for testing. In this lesson, we'll look at installing a standalone version of Spark on Windows and Mac machines. All the required tools are open source and directly downloadable from official sites referenced in the lesson. 
 
