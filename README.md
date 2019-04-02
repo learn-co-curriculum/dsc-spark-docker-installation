@@ -85,8 +85,8 @@ If everything went fine , you should see an out like this:
 [941, 60, 987, 542, 718]
 ```
 
-Do not worry if you dont fully comprehend what above meant. NExt we will look into some basic programming principles and methods from Spark which will explain this. 
+Do not worry if you dont fully comprehend what above meant. Next we will look into some basic programming principles and methods from Spark which will explain this. 
 
 ## Summary 
 
-In this lesson, we looked at installing Spark using Docker container. The process works same for both MAc and Windows based systems. Make sure to follow all steps in the given sequence. 
+In this lesson, we looked at installing Spark using Docker container. The process works same for both Mac and Windows based systems. Make sure to follow all steps in the given sequence. 
