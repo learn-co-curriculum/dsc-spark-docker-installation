@@ -29,9 +29,9 @@ Spark is notoriously difficult to install, and you are welcome to try it, but it
 
 ### Kitematic
 
-["Kitematic"](https://kitematic.com/) allows for a "one-click install" of containers in Docker running on your Mac and windows and lets you control your app containers from a graphical user interface (GUI). This takes away a lot of cognitive load required to set up and configure virtual environments. 
+["Kitematic"](https://kitematic.com/) allows for a "one-click install" of containers in Docker running on your Mac and windows and lets you control your app containers from a graphical user interface (GUI). This takes away a lot of cognitive load required to set up and configure virtual environments. *Kitematic used to be a separate program, but now it is automatically included with new versions of Docker*
 
-Once Docker is successfully installed, we need to perform the following tasks in the given sequence. 
+Once Docker is successfully installed, we need to perform the following tasks in the given sequence to create a notebook that is pyspark enabled.
 
 
 ### Click on the docker toolbar on mac and select Kitematic
@@ -46,21 +46,21 @@ This option can be accessed via "My Repos" Section in the Kitematic GUI.
 <img src="./images/hub.png" width=400>
 
 ### Search for `pyspark-notebook` repository, and click on the image provided by `jupyter` 
-It is imperative to use the one from __jupyter__ for our labs to run as expected, as there are lots of other offerings available. 
+It is imperative to use the one from __jupyter__ for everything to run as expected, as there are lots of other offerings available. Once you click "Create" the pyspark-notebook image will start to download (it might take some time).
 
 ![](./images/search.png)
 
-Run the repo when it is downloaded, it will start an `ipython-kernel`. To run jupyter notebooks, click on the right half of kitematic where it says "web preview".
+Run the image when it is downloaded, it will start an `ipython-kernel`. To run jupyter notebooks, click on the right half of kitematic where it says "web preview".
 
 ![](./images/click.png)
 
-This will open a browser window asking you for a token ID. Go back to the kitematic and check the left bottom of the terminal-like screen for a string that says: `token?= --- ` as shown above. Copy the text after that and put it into the jupyter notebook page.
+This will open a browser window asking you for a token ID. Go back to the kitematic and check the left bottom of the terminal-like screen for a string that says: `token?= --- ` as shown below. Copy the text after that and put it into the jupyter notebook page.
 
 
 ![](./images/token.png)
 
 
-This will open a new jupyter notebook, just as we've seen before. We are now ready to program in spark.  
+This will open a new jupyter notebook, just as we've seen before. We are now ready to program in spark!
 
 ## Testing the installation
 
