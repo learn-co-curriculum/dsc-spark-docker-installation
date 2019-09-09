@@ -23,6 +23,9 @@ Spark is notoriously difficult to install, and you are welcome to try it, but it
  
 - Download & install Docker on Mac : https://download.docker.com/mac/stable/Docker.dmg
 - Download and install Docker on Windows:  https://hub.docker.com/editions/community/docker-ce-desktop-windows
+     - Note: The current version of Docker, and all going forward, require a Windows 10 Pro install. The workaround is installing [Docker Toolbox](https://docs.docker.com/toolbox/), for legacy desktops.
+
+
 
 
 
