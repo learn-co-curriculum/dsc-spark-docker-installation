@@ -3,13 +3,13 @@
 
 ## Introduction
 
-In addition to running on the clusters, Spark provides a simple standalone deploy mode. We can launch a standalone cluster either manually, by starting a master and workers by hand or use our provided launch scripts. It is also possible to run these daemons on a single machine for testing. In this lesson, we'll look at installing a standalone version of Spark on Windows and Mac machines. All the required tools are open source and directly downloadable from official sites referenced in the lesson. 
+In addition to running on clusters, Spark provides a simple standalone deploy mode. We can launch a standalone cluster either manually, by starting a master and workers by hand or use our provided launch scripts. It is also possible to run these daemons on a single machine for testing. In this lesson, we'll look at installing a standalone version of Spark on Windows and Mac machines. All the required tools are open source and directly downloadable from official sites referenced in the lesson. 
 
 ## Objectives
 You will be able to:
-- Install Docker on Windows/Mac environments
-- Install a standalone version of Spark on a local server 
-- Test the spark installation by running a simple test script
+
+- Explain the utility of Docker when dealing with package management 
+- Install a Docker container that comes packaged with Spark 
 
 ## Docker
 For this section, we shall run PySpark on a single machine in a virtualized environment using __Docker__. Docker is a container technology that allows __packaging__ and __distribution__ of software  so that it takes away the headache of things like setting up an environment, configuring logging, configuring options, etc. Docker basically removes the excuse "*It doesn't work on my machine*". 
@@ -32,9 +32,9 @@ Spark is notoriously difficult to install, and you are welcome to try it, but it
 
 ### Kitematic
 
-["Kitematic"](https://kitematic.com/) allows for a "one-click install" of containers in Docker running on your Mac and windows and lets you control your app containers from a graphical user interface (GUI). This takes away a lot of cognitive load required to set up and configure virtual environments. *Kitematic used to be a separate program, but now it is automatically included with new versions of Docker*
+["Kitematic"](https://kitematic.com/) allows for a "one-click install" of containers in Docker running on your Mac and Windows and lets you control your app containers from a graphical user interface (GUI). This takes away a lot of cognitive load required to set up and configure virtual environments. *Kitematic used to be a separate program, but now it is automatically included with new versions of Docker*. 
 
-Once Docker is successfully installed, we need to perform the following tasks in the given sequence to create a notebook that is pyspark enabled.
+Once Docker is successfully installed, we need to perform the following tasks in the given sequence to create a notebook that is PySpark enabled.
 
 
 ### Click on the docker toolbar on mac and select Kitematic
@@ -44,7 +44,7 @@ Once Docker is successfully installed, we need to perform the following tasks in
 ### Sign up on Docker Hub 
 Upon running Kitematic, you will be asked to sign up on Docker Hub. This is optional, but it is recommended as it can allow to share your Docker containers and run them on different machines. 
 
-This option can be accessed via "My Repos" Section in the Kitematic GUI. 
+This option can be accessed via "My Repos" section in the Kitematic GUI. 
  
 <img src="./images/hub.png" width=400>
 
