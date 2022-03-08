@@ -1,0 +1,6 @@
+---
+:lessons:
+- :id: 167678
+  :course_id: 347
+  :canvas_url: https://learning.flatironschool.com/courses/347/pages/installing-and-configuring-pyspark-with-docker
+  :type: page
