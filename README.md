@@ -352,12 +352,14 @@ jupyter notebook
 Go to the [Get Docker](https://docs.docker.com/get-docker/) page, click on your operating system, and follow the instructions.
 
 For Mac/Linux:
+
 ```bash
 docker pull jupyter/pyspark-notebook
 docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/pyspark-notebook
 ```
 
 For Windows:
+
 ```
 docker pull jupyter/pyspark-notebook
 docker run -p 8888:8888 -v %cd%:/home/jovyan/work -it --rm jupyter/pyspark-notebook
