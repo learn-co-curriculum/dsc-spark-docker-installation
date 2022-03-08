@@ -235,7 +235,7 @@ http://127.0.0.1:8888/lab?token=<token>
 
 Then once you paste it into the browser address bar, you'll be redirected to just `http://127.0.0.1:8888/lab`, which is a Jupyter Lab interface:
 
-![jupyter lab screenshot](images/jupyter_lab.png)
+![jupyter lab screenshot](https://github.com/learn-co-curriculum/dsc-spark-docker-installation/raw/master/images/jupyter_lab.png)
 
 If you want to navigate back to the classic `jupyter notebook` file window, simply enter `http://127.0.0.1:8888/tree` in the address bar (replacing `lab` with `tree`).
 
